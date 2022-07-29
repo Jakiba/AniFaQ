@@ -1,13 +1,9 @@
 export const randomQuote = async function () {
   try {
     const response = await fetch("https://animechan.vercel.app/api/random");
-    // console.log(response);
     const data = await response.json();
-    // console.log(data);
     return data;
-  } catch (err) {
-    // console.error(err);
-  }
+  } catch (err) {}
 };
 
 /**
@@ -44,7 +40,6 @@ export const getQuoteByTitleOrCharacter = async function (
       );
       const data = await response.json();
       data.id = generateUniqueID();
-      console.log(data);
       return data;
     }
     if (mode === "character") {
@@ -53,41 +48,9 @@ export const getQuoteByTitleOrCharacter = async function (
       );
       const data = await response.json();
       data.id = generateUniqueID();
-      console.log(data);
       return data;
     }
   } catch (err) {
     throw err;
   }
 };
-
-// export const quoteObject = {
-//   bookmarks: [],
-// };
-
-// const saveBookmarks = function () {
-//   localStorage.setItem("bookmarks", JSON.stringify(quoteObject.bookmarks));
-// };
-
-// export const addBookmark = function (quote) {
-//   quoteObject.bookmarks.push(quote);
-//   saveBookmarks();
-// };
-
-// export const getAllAnimeFacts = async function () {
-//   try {
-//     const response = await fetch(
-//       `https://anime-facts-rest-api.herokuapp.com/api/v1`,
-//       {
-//         method: "GET",
-//         mode: "cors", //saw that somewhere and tried it out, but no success...
-//       }
-//     );
-//     console.log(response);
-//     const data = await response.json();
-//     console.log(data);
-//   } catch (err) {
-//     console.log(err);
-//   }
-// };
-// getAllAnimeFacts();

@@ -5,17 +5,6 @@ import searchView from "./Views/searchView.js";
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 
-// const controlQuoteView = async function () {
-//   try {
-//     const data = await model.randomQuote();
-//     console.log(data);
-//     quoteView._renderResults(data);
-//   } catch (err) {
-//     console.error(err);
-//   }
-// };
-// controlQuoteView();
-
 /**
  * Responsible for taking the fetched data and using it to render data into view.
  * @param {string} mode comes from 'addHandlerSearch' and is passed in into 'getQuoteByTitleOrCharacter' to use right fetch!
