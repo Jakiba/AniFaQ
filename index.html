@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
+    <script type="module" src="src/js/controller.js"></script>
+    <title>AniZit</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="header-logo" href="#">anifaq</h2>
+
+      <nav class="nav-bar">
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="https://github.com/Jakiba" class="nav-link">about me</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">bookmarks</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero-container">
+          <div class="hero-title-quote">
+            <h1 class="hero-title">
+              Discover thousands of quotes from all of your favorite anime
+            </h1>
+            <figure class="hero-quote">
+              <blockquote class="hero-quote-text">
+                “I smell adventure!”
+              </blockquote>
+              <figcaption class="hero-quote-from">
+                (One Piece, Monkey D. Luffy)
+              </figcaption>
+            </figure>
+          </div>
+          <form class="search">
+            <input
+              id="quotes-search"
+              type="search"
+              placeholder="search for an title/character..."
+              name="quotes-search"
+            />
+            <select id="character-or-title" name="character-or-anime" required>
+              <option value="title">Search by title...</option>
+              <option value="character">Search by character...</option>
+            </select>
+          </form>
+          <button class="random-quote-button">random quote</button>
+        </div>
+      </section>
+
+      <section class="section-search-results">
+        <!-- where the quotes get rendered into... -->
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
+  </body>
+</html>

@@ -1,0 +1,172 @@
+@media (max-width: 78.5em) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-quote {
+    font-size: 2rem;
+  }
+
+  #quotes-search {
+    width: 50rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 56.5em) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-quote {
+    font-size: 2rem;
+  }
+
+  #quotes-search {
+    width: 40rem;
+    font-size: 1.5rem;
+  }
+
+  #character-or-title {
+    padding: 0.6rem 0rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+  }
+
+  .random-quote-button {
+    padding: 1.5rem 2.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 45.5em) {
+  .header-logo {
+    font-size: 2rem;
+  }
+
+  .nav-items {
+    font-size: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-quote {
+    font-size: 1.5rem;
+  }
+
+  #quotes-search {
+    width: 30rem;
+    font-size: 1.5rem;
+  }
+
+  #character-or-title {
+    padding: 0.6rem 0rem;
+    padding-right: 1.5rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+  }
+
+  .random-quote-button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+
+  .results-quote {
+    font-size: 1.5rem;
+  }
+
+  .bookmark-icon {
+    width: 3rem;
+  }
+}
+
+@media (max-width: 33.5em) {
+  .header-logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-items {
+    font-size: 1.25rem;
+  }
+
+  .hero-title {
+    font-size: 1.25rem;
+  }
+
+  .hero-quote {
+    font-size: 1.25rem;
+  }
+
+  #quotes-search {
+    width: 30rem;
+    font-size: 1.25rem;
+  }
+
+  #character-or-title {
+    padding: 0.6rem 0rem;
+    padding-right: 1.25rem;
+    border-radius: 20px;
+    font-size: 1.25rem;
+  }
+
+  .random-quote-button {
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .results-quote {
+    font-size: 1.25rem;
+  }
+
+  .bookmark-icon {
+    width: 2.5rem;
+  }
+}
+
+@media (max-width: 28.5em) {
+  .header-logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-items {
+    font-size: 1.25rem;
+    gap: 2rem;
+  }
+
+  .hero-title {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .hero-quote {
+    font-size: 1.25rem;
+  }
+
+  #quotes-search {
+    width: 30rem;
+    font-size: 1.25rem;
+  }
+
+  #character-or-title {
+    padding: 0.6rem 0rem;
+    padding-right: 1.25rem;
+    border-radius: 20px;
+    font-size: 1.25rem;
+  }
+
+  .random-quote-button {
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .results-quote {
+    font-size: 1.25rem;
+  }
+
+  .bookmark-icon {
+    width: 2.5rem;
+  }
+}
